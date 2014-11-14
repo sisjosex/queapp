@@ -45,7 +45,7 @@
    var liquid = {
 	
 		/* the name of the App */
-		appName: 'QuéPlan?',
+		appName: 'Quï¿½Plan?',
 		
 		/**
 		 * Configuration values needs to be declared below
@@ -65,10 +65,10 @@
 				response_type: "code",
 
 				// ## Update this value: The client_id obtained during application registration ##
-				client_id: "629734064389-ca988gfh0d9v7a2cq7l45o5c7hb9aaio.apps.googleusercontent.com",
+				client_id: "380105399688-0c2kmk7ghsekc8afoo3fnc7r36a8gftf.apps.googleusercontent.com",
 				
 				// ## Update this value: The client secret obtained during application registration ##
-				client_secret: "7oXIiclrkdxNT-HkSnmlmwUM", 		
+				client_secret: "x3jMEVba1lKI1_b2N77CD-gP",
 				
 				// or urn:ietf:wg:oauth:2.0:oob
 				redirect_uri: "http://www.queplanmadrid.es/", 				 
