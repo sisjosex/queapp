@@ -122,7 +122,7 @@
 		 */
 		onAuthUrlChange: function(uriLocation) {
 
-            alert(uriLocation);
+            //alert(uriLocation);
 
 			var $this = helper.oauth;
 			
