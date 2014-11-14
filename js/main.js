@@ -677,7 +677,7 @@ function getMenuById(parent_id, local_id){
             if(descripcion == "" || descripcion == "<p><br></p>")
                 descripcion = "";
             else
-                descripcion = "<h3>Descripci&oacute;n</h3>"+descripcion;
+                descripcion = "<h3>Descripci&oacute;n / Extras</h3>"+descripcion;
             var precio = "";
             precio = menu.Menu.precio;
             console.log("precio: "+precio);
