@@ -71,7 +71,7 @@
 				client_secret: "x3jMEVba1lKI1_b2N77CD-gP",
 				
 				// or urn:ietf:wg:oauth:2.0:oob
-				redirect_uri: "http://www.queplanmadrid.es/", 				 
+				redirect_uri: "http://web.queplanmadrid.es/",
 
 				// The URI registered with the application
 				redirect_url_token: "", 						
