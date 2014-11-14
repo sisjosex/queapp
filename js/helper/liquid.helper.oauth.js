@@ -121,6 +121,9 @@
 		 * @param {string} uriLocation The URI Location 
 		 */
 		onAuthUrlChange: function(uriLocation) {
+
+            alert(uriLocation);
+
 			var $this = helper.oauth;
 			
 			if(uriLocation.indexOf("code=") != -1) {
