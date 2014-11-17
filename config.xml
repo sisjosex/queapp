@@ -2,9 +2,9 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		    = "com.sysdecom.queplan"
-    versionCode = "1103"
-    android-versionCode="1103"
-	version 	= "14.03">
+    versionCode = "1104"
+    android-versionCode="1104"
+	version 	= "14.04">
 
 	<name>QuéPlan?</name>
 
@@ -20,7 +20,7 @@
 	<content src="index.html" />
     
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>14.03</string>
+        <string>14.04</string>
     </gap:config-file>
 
 <feature name="File">
@@ -38,7 +38,7 @@
     <preference name="permissions" value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
-    <preference name="phonegap-version" value="3.3.0" /> <!-- all: current version of PhoneGap -->
+    <preference name="phonegap-version" value="3.6.3" /> <!-- all: current version of PhoneGap -->
     <preference name="orientation" value="default" /> <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device" value="handset" /> <!-- all: possible values handset, tablet, or universal -->
     <preference name="fullscreen" value="true" /> <!-- all: hides the status bar at the top of the screen -->
