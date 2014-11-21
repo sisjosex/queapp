@@ -1740,7 +1740,7 @@ function getZonas(parent_id){
                         pagination : false,
                         items : numero_zonas,
                         itemsMobile : [479,numero_zonas],
-                        responsive: false,
+                        responsive: false
                     });
                     container.find(".nav-custom.zonas").find("li").css("width","100%");
                     container.find(".nav-custom.zonas").find(".owl-wrapper-outer").css("overflow","inherit");

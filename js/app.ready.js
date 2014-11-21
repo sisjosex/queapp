@@ -52,8 +52,10 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         //Hide the statusbar
-        //StatusBar.hide();
-                
+        try {
+            StatusBar.hide();
+        }catch(error){}
+
         //Inicializamos el api de facebook
         openFB.init({appId: '537875786305519'});
         
@@ -65,6 +67,9 @@ var app = {
         
         //Inicializamos el pushNotification
         var pushNotification = window.plugins.pushNotification;
+
+        console.log('devide: ' + device.platform);
+
         if (device.platform == 'android' || device.platform == 'Android') {
             //alert("Register called android");
             pushNotification.register(this.successHandler, this.errorHandler,{"senderID":"629734064389","ecb":"app.onNotificationGCM"});
